@@ -66,6 +66,9 @@ body{
 .w-100{
     width:100%;
 }
+.text-center{
+    text-align:center;
+}
 /* BEGIN NAVIGATIE */
 /* LOGO */
 #navbar{
@@ -140,9 +143,11 @@ nav ul li a:hover{
 /** END HERO **/
 
 /** BEGIN LATEST NEWS **/
+#latestnews{
+    margin-bottom:120px;
+}
 #latestnews h2{
     color: rgba(111,113,115,1);
-    text-align:center;
 }
 .bol{
     height:185px;
@@ -166,4 +171,15 @@ nav ul li a:hover{
 }
 /** END LATEST NEWS **/
 
+/** SHOPPING CART **/
+
+#shoppingtext {
+    width: 450px;
+}
+#shoppingtext p{
+   line-height: 2.8;
+}
 /* FOOTER */
+footer{
+    border-top:1px solid #e5e5e5;
+}
